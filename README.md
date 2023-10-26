@@ -1,3 +1,13 @@
+
+# coe_allennlp-models 
+
+CoE mirror of supported AllenNLP models
+
+The coe_allennlp-models build depends on coe_allennlp, so right now, our documentaion for both is in the [coe_allennlp README.md](https://github.com/cchahal/coe_allennlp#readme)
+
+
+# Original README.md
+
 <div align="center">
     <br>
     <a href="https://github.com/allenai/allennlp">
