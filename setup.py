@@ -59,7 +59,10 @@ with open("requirements.txt") as requirements_file:
         else:
             install_requirements.append(line)
 
-    assert len(allennlp_requirements) == 1
+    # This assert is commented out since the CoE version of the build assumes your desired version
+    # of allennlp is alerady installed, so we don't put allennlp in the requirements.txt.
+    # assert len(allennlp_requirements) == 1
+
     allennlp_override = os.environ.get("ALLENNLP_VERSION_OVERRIDE")
     if allennlp_override is not None:
         if len(allennlp_override) > 0:
